@@ -3,6 +3,7 @@
 import { Layout } from "@globals"
 import Logo from "@img/logo.png"
 import Logox from "@img/icon-x.webp"
+import Countdown from '../components/Countdown.jsx'
 ---
 
 <Layout title="Collectif des volontaires du Senegal">
@@ -15,6 +16,7 @@ import Logox from "@img/icon-x.webp"
 				<p class="italic">
 					<img src={Logo} alt="logo"/>
 				</p>
+				<Countdown client:load/>
 			</div>
 		</div>
 
