@@ -14,6 +14,7 @@ const Countdown = () => {
       if (remainingTime <= 0) {
         clearInterval(intervalId);
         setRemainingTime(0);
+        window.location.href = 'https://codevsn-lancement.netlify.app/';
       }
     }, 1000);
 
