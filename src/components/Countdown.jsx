@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 
 const Countdown = () => {
-  const targetDate = new Date('2023-12-05T00:00:00').getTime();
+  const targetDate = new Date('2023-12-05T15:45:00').getTime();
 
   const [remainingTime, setRemainingTime] = useState(targetDate - Date.now());
 
